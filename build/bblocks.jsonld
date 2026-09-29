@@ -1,7 +1,7 @@
 {
   "@context": [
     {
-      "@base": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined"
+      "@base": "https://ogcincubator.github.io/bblocks-cesium-viewer"
     },
     {
       "bblocks": "https://www.opengis.net/def/bblocks/",
@@ -213,7 +213,7 @@
   "name": "Building Blocks - Cesium globe viewer for topo-feature documents",
   "abstract": "A CesiumJS **Globe** view for topo-feature topology documents in the Building Blocks viewer, the\nJSON Schema for its per-block configuration, and demo blocks that use it.\n",
   "description": "The `TopoFeatureCesiumPlugin` is a [bblocks-viewer](https://github.com/opengeospatial/bblocks-viewer)\nview plugin. It adds a **Globe** tab to any example or transform output that is a\n[topo-feature](https://github.com/ogcincubator/topo-feature) document whose points carry WGS84\n`geometry`, drawing its solids, surfaces, faces and parcels at their real positions on a\nCesiumJS globe \u2014 OpenStreetMap on the flat ellipsoid by default, with no Cesium ion token needed.\n\nWhich features are drawn and how is set by rules shared with the Three.js topology view\n([bblocks-viewer-topo-feature-plugin](https://github.com/ogcincubator/bblocks-viewer-topo-feature-plugin)),\noptionally configured per block; see the *Cesium globe viewer configuration* block. This register\ndeclares the plugin itself, so the demo blocks' examples open in the Globe tab here.\n\nSource, harness and instructions for adding the plugin to another register:\n[bblocks-cesium-viewer](https://github.com/andrewhunter2066/bblocks-cesium-viewer).\n",
-  "modified": "2026-09-29T19:43:34.571064",
+  "modified": "2026-09-29T22:26:22.701417",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"6411aed037da38c6d9079d9350eca33d004a4d0c",
@@ -221,12 +221,12 @@
       "date": "2026-09-23T12:30:49+00:00\""
     }
   },
-  "gitRepository": "https://github.com/andrewhunter2066/bblocks-cesium-viewer",
-  "gitHubRepository": "https://github.com/andrewhunter2066/bblocks-cesium-viewer/blob/master/",
-  "baseURL": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/",
-  "viewerURL": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/",
-  "validationReport": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/tests/report.html",
-  "validationReportJson": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/tests/report.json",
+  "gitRepository": "https://github.com/ogcincubator/bblocks-cesium-viewer",
+  "gitHubRepository": "https://github.com/ogcincubator/bblocks-cesium-viewer/blob/master/",
+  "baseURL": "https://ogcincubator.github.io/bblocks-cesium-viewer/",
+  "viewerURL": "https://ogcincubator.github.io/bblocks-cesium-viewer/",
+  "validationReport": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/tests/report.html",
+  "validationReportJson": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/tests/report.json",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json"
   ],
@@ -238,23 +238,23 @@
       }
     ]
   },
-  "remoteCacheDir": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/_cache",
+  "remoteCacheDir": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/_cache",
   "links": [
     {
       "rel": "self",
-      "href": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/register.json",
+      "href": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/register.json",
       "type": "application/json",
       "title": "This Building Blocks Register in JSON format"
     },
     {
       "rel": "self",
-      "href": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/bblocks.ttl",
+      "href": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/bblocks.ttl",
       "type": "text/turtle",
       "title": "This Building Blocks Register in RDF Turtle format"
     },
     {
       "rel": "self",
-      "href": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/bblocks.jsonld",
+      "href": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/bblocks.jsonld",
       "type": "application/ld+json",
       "title": "This Building Blocks Register in JSON-LD format"
     }
@@ -301,35 +301,35 @@
       "dateOfLastChange": "2026-09-28",
       "schema": [
         {
-          "prof:hasArtifact": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerConfig/schema.yaml",
+          "prof:hasArtifact": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerConfig/schema.yaml",
           "prof:hasRole": "role:schema",
           "dct:format": "application/yaml",
           "dct:conformsTo": "https://json-schema.org/draft/2020-12/schema"
         },
         {
-          "prof:hasArtifact": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerConfig/schema.json",
+          "prof:hasArtifact": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerConfig/schema.json",
           "prof:hasRole": "role:schema",
           "dct:format": "application/json",
           "dct:conformsTo": "https://json-schema.org/draft/2020-12/schema"
         }
       ],
-      "sourceSchema": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/schema.yaml",
-      "resolvedSchemaProperties": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerConfig/resolvedProperties.json",
-      "sourceFiles": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/",
+      "sourceSchema": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/schema.yaml",
+      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerConfig/resolvedProperties.json",
+      "sourceFiles": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/andrewhunter2066/bblocks-cesium-viewer/blob/master/build/tests/bbr/template/cesiumViewerConfig/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-cesium-viewer/blob/master/build/tests/bbr/template/cesiumViewerConfig/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/generateddocs/markdown/bbr/template/cesiumViewerConfig/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/markdown/bbr/template/cesiumViewerConfig/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/generateddocs/json-full/bbr/template/cesiumViewerConfig/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/json-full/bbr/template/cesiumViewerConfig/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/bblock/ogc.bbr.template.cesiumViewerConfig"
+          "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/bblock/ogc.bbr.template.cesiumViewerConfig"
         }
       },
       "@id": "bblocks://ogc.bbr.template.cesiumViewerConfig",
@@ -347,7 +347,7 @@
       "dependsOn": null,
       "isProfileOf": null,
       "skos:topConceptOf": {
-        "@id": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/"
+        "@id": "https://ogcincubator.github.io/bblocks-cesium-viewer/"
       }
     },
     {
@@ -372,7 +372,7 @@
       "resources": [
         {
           "role": "https://github.com/ogcincubator/bblocks-cesium-viewer/role/viewer-config",
-          "ref": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerDemo/parcel/viewer-config.json",
+          "ref": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerDemo/parcel/viewer-config.json",
           "format": "application/json",
           "title": "Globe view configuration"
         }
@@ -381,35 +381,35 @@
       "dateOfLastChange": "2026-09-28",
       "schema": [
         {
-          "prof:hasArtifact": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerDemo/parcel/schema.yaml",
+          "prof:hasArtifact": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/parcel/schema.yaml",
           "prof:hasRole": "role:schema",
           "dct:format": "application/yaml",
           "dct:conformsTo": "https://json-schema.org/draft/2020-12/schema"
         },
         {
-          "prof:hasArtifact": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerDemo/parcel/schema.json",
+          "prof:hasArtifact": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/parcel/schema.json",
           "prof:hasRole": "role:schema",
           "dct:format": "application/json",
           "dct:conformsTo": "https://json-schema.org/draft/2020-12/schema"
         }
       ],
-      "sourceSchema": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerDemo/parcel/schema.yaml",
-      "resolvedSchemaProperties": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerDemo/parcel/resolvedProperties.json",
-      "sourceFiles": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerDemo/parcel/",
+      "sourceSchema": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerDemo/parcel/schema.yaml",
+      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/parcel/resolvedProperties.json",
+      "sourceFiles": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerDemo/parcel/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/andrewhunter2066/bblocks-cesium-viewer/blob/master/build/tests/bbr/template/cesiumViewerDemo/parcel/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-cesium-viewer/blob/master/build/tests/bbr/template/cesiumViewerDemo/parcel/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/generateddocs/markdown/bbr/template/cesiumViewerDemo/parcel/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/markdown/bbr/template/cesiumViewerDemo/parcel/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/generateddocs/json-full/bbr/template/cesiumViewerDemo/parcel/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/json-full/bbr/template/cesiumViewerDemo/parcel/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/bblock/ogc.bbr.template.cesiumViewerDemo.parcel"
+          "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/bblock/ogc.bbr.template.cesiumViewerDemo.parcel"
         }
       },
       "@id": "bblocks://ogc.bbr.template.cesiumViewerDemo.parcel",
@@ -427,7 +427,7 @@
       "dependsOn": null,
       "isProfileOf": null,
       "skos:topConceptOf": {
-        "@id": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/"
+        "@id": "https://ogcincubator.github.io/bblocks-cesium-viewer/"
       }
     },
     {
@@ -452,7 +452,7 @@
       "resources": [
         {
           "role": "https://github.com/ogcincubator/bblocks-cesium-viewer/role/viewer-config",
-          "ref": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerDemo/utilityNetwork/viewer-config.json",
+          "ref": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerDemo/utilityNetwork/viewer-config.json",
           "format": "application/json",
           "title": "Globe view configuration"
         }
@@ -461,35 +461,35 @@
       "dateOfLastChange": "2026-09-28",
       "schema": [
         {
-          "prof:hasArtifact": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerDemo/utilityNetwork/schema.yaml",
+          "prof:hasArtifact": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/utilityNetwork/schema.yaml",
           "prof:hasRole": "role:schema",
           "dct:format": "application/yaml",
           "dct:conformsTo": "https://json-schema.org/draft/2020-12/schema"
         },
         {
-          "prof:hasArtifact": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerDemo/utilityNetwork/schema.json",
+          "prof:hasArtifact": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/utilityNetwork/schema.json",
           "prof:hasRole": "role:schema",
           "dct:format": "application/json",
           "dct:conformsTo": "https://json-schema.org/draft/2020-12/schema"
         }
       ],
-      "sourceSchema": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerDemo/utilityNetwork/schema.yaml",
-      "resolvedSchemaProperties": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerDemo/utilityNetwork/resolvedProperties.json",
-      "sourceFiles": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerDemo/utilityNetwork/",
+      "sourceSchema": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerDemo/utilityNetwork/schema.yaml",
+      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/utilityNetwork/resolvedProperties.json",
+      "sourceFiles": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerDemo/utilityNetwork/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/andrewhunter2066/bblocks-cesium-viewer/blob/master/build/tests/bbr/template/cesiumViewerDemo/utilityNetwork/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-cesium-viewer/blob/master/build/tests/bbr/template/cesiumViewerDemo/utilityNetwork/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/generateddocs/markdown/bbr/template/cesiumViewerDemo/utilityNetwork/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/markdown/bbr/template/cesiumViewerDemo/utilityNetwork/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/generateddocs/json-full/bbr/template/cesiumViewerDemo/utilityNetwork/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/json-full/bbr/template/cesiumViewerDemo/utilityNetwork/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/bblock/ogc.bbr.template.cesiumViewerDemo.utilityNetwork"
+          "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/bblock/ogc.bbr.template.cesiumViewerDemo.utilityNetwork"
         }
       },
       "@id": "bblocks://ogc.bbr.template.cesiumViewerDemo.utilityNetwork",
@@ -507,7 +507,7 @@
       "dependsOn": null,
       "isProfileOf": null,
       "skos:topConceptOf": {
-        "@id": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/"
+        "@id": "https://ogcincubator.github.io/bblocks-cesium-viewer/"
       }
     }
   ],

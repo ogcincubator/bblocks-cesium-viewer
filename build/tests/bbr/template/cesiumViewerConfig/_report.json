@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.template.cesiumViewerConfig - Cesium globe viewer configuration",
   "bblockName": "Cesium globe viewer configuration",
   "bblockId": "ogc.bbr.template.cesiumViewerConfig",
-  "generated": "2026-09-29T19:43:34.943441+00:00",
+  "generated": "2026-09-29T22:26:23.037714+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/cesiumViewerConfig/tests/basemap-without-placeholders-fail.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/basemap-without-placeholders-fail.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/basemap-without-placeholders-fail.json",
         "language": "json"
       },
       "result": true,
@@ -57,7 +57,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/cesiumViewerConfig/tests/camera-without-height-fail.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/camera-without-height-fail.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/camera-without-height-fail.json",
         "language": "json"
       },
       "result": true,
@@ -104,7 +104,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/cesiumViewerConfig/tests/defaults-and-flatten-to.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/defaults-and-flatten-to.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/defaults-and-flatten-to.json",
         "language": "json"
       },
       "result": true,
@@ -138,7 +138,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/cesiumViewerConfig/tests/empty-config.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/empty-config.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/empty-config.json",
         "language": "json"
       },
       "result": true,
@@ -172,7 +172,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/cesiumViewerConfig/tests/http-basemap-fail.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/http-basemap-fail.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/http-basemap-fail.json",
         "language": "json"
       },
       "result": true,
@@ -219,7 +219,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/cesiumViewerConfig/tests/opacity-out-of-range-fail.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/opacity-out-of-range-fail.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/opacity-out-of-range-fail.json",
         "language": "json"
       },
       "result": true,
@@ -266,7 +266,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/cesiumViewerConfig/tests/rule-missing-kind-fail.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/rule-missing-kind-fail.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/rule-missing-kind-fail.json",
         "language": "json"
       },
       "result": true,
@@ -313,7 +313,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/cesiumViewerConfig/tests/unknown-geometry-fail.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/unknown-geometry-fail.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/unknown-geometry-fail.json",
         "language": "json"
       },
       "result": true,
@@ -360,7 +360,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/cesiumViewerConfig/tests/unknown-member-fail.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/unknown-member-fail.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/unknown-member-fail.json",
         "language": "json"
       },
       "result": true,
@@ -407,7 +407,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/cesiumViewerConfig/tests/unknown-terrain-fail.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/_sources/cesiumViewerConfig/tests/unknown-terrain-fail.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerConfig/tests/unknown-terrain-fail.json",
         "language": "json"
       },
       "result": true,
@@ -454,7 +454,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/bbr/template/cesiumViewerConfig/example_1_1.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/tests/bbr/template/cesiumViewerConfig/example_1_1.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/tests/bbr/template/cesiumViewerConfig/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "application/json"
@@ -490,7 +490,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/bbr/template/cesiumViewerConfig/example_2_1.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/tests/bbr/template/cesiumViewerConfig/example_2_1.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/tests/bbr/template/cesiumViewerConfig/example_2_1.json",
         "exampleIndex": 2,
         "snippetIndex": 1,
         "language": "application/json"
@@ -526,7 +526,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/bbr/template/cesiumViewerConfig/example_3_1.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/tests/bbr/template/cesiumViewerConfig/example_3_1.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/tests/bbr/template/cesiumViewerConfig/example_3_1.json",
         "exampleIndex": 3,
         "snippetIndex": 1,
         "language": "application/json"
@@ -562,7 +562,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/bbr/template/cesiumViewerConfig/example_4_1.json",
-        "url": "https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/tests/bbr/template/cesiumViewerConfig/example_4_1.json",
+        "url": "https://ogcincubator.github.io/bblocks-cesium-viewer/build/tests/bbr/template/cesiumViewerConfig/example_4_1.json",
         "exampleIndex": 4,
         "snippetIndex": 1,
         "language": "application/json"

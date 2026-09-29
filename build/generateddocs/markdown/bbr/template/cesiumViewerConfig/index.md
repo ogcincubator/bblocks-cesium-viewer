@@ -612,14 +612,14 @@ $defs:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerConfig/schema.json)
-* JSON version: [schema.json](https://raw.githubusercontent.com/andrewhunter2066/bblocks-cesium-viewer/undefined/build/annotated/bbr/template/cesiumViewerConfig/schema.yaml)
+* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerConfig/schema.json)
+* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerConfig/schema.yaml)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/andrewhunter2066/bblocks-cesium-viewer](https://github.com/andrewhunter2066/bblocks-cesium-viewer)
+* URL: [https://github.com/ogcincubator/bblocks-cesium-viewer](https://github.com/ogcincubator/bblocks-cesium-viewer)
 * Path: `_sources/cesiumViewerConfig`
 
