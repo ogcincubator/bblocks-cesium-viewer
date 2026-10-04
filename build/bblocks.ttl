@@ -13,22 +13,22 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<bblocks://ogc.bbr.template.cesiumViewerDemo.parcel> a skos:Concept,
+<bblocks://ogc.utils.viewer.cesium.cesiumViewerDemo.parcel> a skos:Concept,
         dcat:Dataset,
         bblocks:BBlock,
         bblocks:Schema ;
     rdfs:label "Globe view demo: cadastral parcel" ;
     dct:abstract "A Western Australian cadastral survey as a topo-feature document — a 3D lot solid, the ground surface and three parcels — shown in the Globe view with the parcel rules from the Three.js topology view."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-28T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/bblock/ogc.bbr.template.cesiumViewerDemo.parcel> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/markdown/utils/viewer/cesium/cesiumViewerDemo/parcel/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/json-full/bbr/template/cesiumViewerDemo/parcel/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/markdown/bbr/template/cesiumViewerDemo/parcel/index.md> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/json-full/utils/viewer/cesium/cesiumViewerDemo/parcel/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/bblock/ogc.utils.viewer.cesium.cesiumViewerDemo.parcel> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-09-28"^^xsd:date ;
-    rdfs:seeAlso <bblocks://ogc.bbr.template.cesiumViewerConfig> ;
+    rdfs:seeAlso <bblocks://ogc.utils.viewer.cesium.cesiumViewerConfig> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-cesium-viewer/> ;
     skos:prefLabel "Globe view demo: cadastral parcel" ;
     skos:topConceptOf <https://ogcincubator.github.io/bblocks-cesium-viewer/> ;
@@ -37,36 +37,36 @@
         "demo",
         "topo-feature",
         "viewer" ;
-    prof:hasResource [ dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerDemo/parcel/viewer-config.json> ;
-            prof:hasRole <https://github.com/ogcincubator/bblocks-cesium-viewer/role/viewer-config> ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/parcel/schema.json> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/utils/viewer/cesium/cesiumViewerDemo/parcel/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/parcel/schema.yaml> ;
-            prof:hasRole role:schema ] ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/utils/viewer/cesium/cesiumViewerDemo/parcel/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:format "application/json" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerDemo/parcel/viewer-config.json> ;
+            prof:hasRole <https://github.com/ogcincubator/bblocks-cesium-viewer/role/viewer-config> ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
 
-<bblocks://ogc.bbr.template.cesiumViewerDemo.utilityNetwork> a skos:Concept,
+<bblocks://ogc.utils.viewer.cesium.cesiumViewerDemo.utilityNetwork> a skos:Concept,
         dcat:Dataset,
         bblocks:BBlock,
         bblocks:Schema ;
     rdfs:label "Globe view demo: underground utility network" ;
     dct:abstract "Four underground pipe segments as topo-feature solids, classified by asset condition — a non-cadastral document showing that the Globe view's rules are domain-independent."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-28T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/bblock/ogc.bbr.template.cesiumViewerDemo.utilityNetwork> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/json-full/utils/viewer/cesium/cesiumViewerDemo/utilityNetwork/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/markdown/bbr/template/cesiumViewerDemo/utilityNetwork/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/json-full/bbr/template/cesiumViewerDemo/utilityNetwork/index.json> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/markdown/utils/viewer/cesium/cesiumViewerDemo/utilityNetwork/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/bblock/ogc.utils.viewer.cesium.cesiumViewerDemo.utilityNetwork> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-09-28"^^xsd:date ;
-    rdfs:seeAlso <bblocks://ogc.bbr.template.cesiumViewerConfig> ;
+    rdfs:seeAlso <bblocks://ogc.utils.viewer.cesium.cesiumViewerConfig> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-cesium-viewer/> ;
     skos:prefLabel "Globe view demo: underground utility network" ;
     skos:topConceptOf <https://ogcincubator.github.io/bblocks-cesium-viewer/> ;
@@ -75,48 +75,48 @@
         "topo-feature",
         "utilities",
         "viewer" ;
-    prof:hasResource [ dct:format "application/json" ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/utils/viewer/cesium/cesiumViewerDemo/utilityNetwork/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:format "application/json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/_sources/cesiumViewerDemo/utilityNetwork/viewer-config.json> ;
             prof:hasRole <https://github.com/ogcincubator/bblocks-cesium-viewer/role/viewer-config> ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/utilityNetwork/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerDemo/utilityNetwork/schema.yaml> ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/utils/viewer/cesium/cesiumViewerDemo/utilityNetwork/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
 
 <https://ogcincubator.github.io/bblocks-cesium-viewer/build/bblocks.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:N0c50183109ba458a8a0bcc7c9c587f95 ;
+    prov:wasAttributedTo _:N35095592d11b4629b553838f827bbd30 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-29T22:26:23.261078"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-29T22:26:23.078757"^^xsd:dateTime ;
+            prov:endedAtTime "2026-10-04T23:25:41.824601"^^xsd:dateTime ;
+            prov:startedAtTime "2026-10-04T23:25:41.668363"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
-                    dct:format "application/json" ;
-                    dct:hasVersion "git:8c4ee4d11c8b9c07e457260b2c479cbf23cbc653" ;
-                    rdfs:seeAlso <https://ogcincubator.github.io/bblocks-cesium-viewer/build/register.json> ],
-                [ a prov:Entity ;
                     dct:format "application/yaml" ;
-                    rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
-            prov:wasAssociatedWith _:N0c50183109ba458a8a0bcc7c9c587f95 ] .
+                    rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
+                [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:5980e8e91345cbdef68c7fc5197c0ffc995aea42" ;
+                    rdfs:seeAlso <https://ogcincubator.github.io/bblocks-cesium-viewer/build/register.json> ] ;
+            prov:wasAssociatedWith _:N35095592d11b4629b553838f827bbd30 ] .
 
-<bblocks://ogc.bbr.template.cesiumViewerConfig> a skos:Concept,
+<bblocks://ogc.utils.viewer.cesium.cesiumViewerConfig> a skos:Concept,
         dcat:Dataset,
         bblocks:BBlock,
         bblocks:Schema ;
     rdfs:label "Cesium globe viewer configuration" ;
     dct:abstract "Per-block configuration for the bblocks-viewer Globe view of topo-feature documents: which features are drawn and how (rules shared with the Three.js topology view), plus the globe's basemap, terrain and initial camera."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-28T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/bblock/ogc.bbr.template.cesiumViewerConfig> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/json-full/utils/viewer/cesium/cesiumViewerConfig/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/markdown/bbr/template/cesiumViewerConfig/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/json-full/bbr/template/cesiumViewerConfig/index.json> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/build/generateddocs/markdown/utils/viewer/cesium/cesiumViewerConfig/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-cesium-viewer/bblock/ogc.utils.viewer.cesium.cesiumViewerConfig> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-09-28"^^xsd:date ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-cesium-viewer/> ;
@@ -129,16 +129,16 @@
         "viewer" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerConfig/schema.yaml> ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/utils/viewer/cesium/cesiumViewerConfig/schema.yaml> ;
             prof:hasRole role:schema ],
         [ rdfs:label "Three.js TopoFeaturePlugin (shares the rule configuration)" ;
             ns2:hasTarget <https://github.com/ogcincubator/bblocks-viewer-topo-feature-plugin> ],
-        [ rdfs:label "TopoFeatureCesiumPlugin source" ;
-            ns2:hasTarget <https://github.com/andrewhunter2066/bblocks-cesium-viewer> ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/bbr/template/cesiumViewerConfig/schema.json> ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-cesium-viewer/build/annotated/utils/viewer/cesium/cesiumViewerConfig/schema.json> ;
             prof:hasRole role:schema ],
+        [ rdfs:label "TopoFeatureCesiumPlugin source" ;
+            ns2:hasTarget <https://github.com/ogcincubator/bblocks-cesium-viewer> ],
         [ rdfs:label "topo-feature" ;
             ns2:hasTarget <https://github.com/ogcincubator/topo-feature> ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -163,13 +163,13 @@ optionally configured per block; see the *Cesium globe viewer configuration* blo
 declares the plugin itself, so the demo blocks' examples open in the Globe tab here.
 
 Source, harness and instructions for adding the plugin to another register:
-[bblocks-cesium-viewer](https://github.com/andrewhunter2066/bblocks-cesium-viewer).
+[bblocks-cesium-viewer](https://github.com/ogcincubator/bblocks-cesium-viewer).
 """^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
-    dct:modified "2026-09-29T22:26:22.701417"^^xsd:dateTime ;
+    dct:modified "2026-10-04T23:25:41.314897"^^xsd:dateTime ;
     owl:imports <https://opengeospatial.github.io/bblocks/register.json> ;
-    skos:hasTopConcept <bblocks://ogc.bbr.template.cesiumViewerConfig>,
-        <bblocks://ogc.bbr.template.cesiumViewerDemo.parcel>,
-        <bblocks://ogc.bbr.template.cesiumViewerDemo.utilityNetwork> ;
+    skos:hasTopConcept <bblocks://ogc.utils.viewer.cesium.cesiumViewerConfig>,
+        <bblocks://ogc.utils.viewer.cesium.cesiumViewerDemo.parcel>,
+        <bblocks://ogc.utils.viewer.cesium.cesiumViewerDemo.utilityNetwork> ;
     skos:prefLabel "Building Blocks - Cesium globe viewer for topo-feature documents" ;
     prof:hasResource [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
             dct:type "text/turtle" ;
@@ -186,7 +186,7 @@ Source, harness and instructions for adding the plugin to another register:
     foaf:homepage <https://ogcincubator.github.io/bblocks-cesium-viewer/> ;
     bblocks:hasValidationReport <https://ogcincubator.github.io/bblocks-cesium-viewer/build/tests/report.html> .
 
-_:N0c50183109ba458a8a0bcc7c9c587f95 a prov:Agent,
+_:N35095592d11b4629b553838f827bbd30 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.35.dev2+g67607e7aa" ;

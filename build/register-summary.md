@@ -16,24 +16,24 @@ optionally configured per block; see the *Cesium globe viewer configuration* blo
 declares the plugin itself, so the demo blocks' examples open in the Globe tab here.
 
 Source, harness and instructions for adding the plugin to another register:
-[bblocks-cesium-viewer](https://github.com/andrewhunter2066/bblocks-cesium-viewer).
+[bblocks-cesium-viewer](https://github.com/ogcincubator/bblocks-cesium-viewer).
 
 
 ## Building Blocks
 
-### `ogc.bbr.template.cesiumViewerConfig` — Cesium globe viewer configuration
+### `ogc.utils.viewer.cesium.cesiumViewerConfig` — Cesium globe viewer configuration
 
 **Type:** schema
 
 Per-block configuration for the bblocks-viewer Globe view of topo-feature documents: which features are drawn and how (rules shared with the Three.js topology view), plus the globe's basemap, terrain and initial camera.
 
-### `ogc.bbr.template.cesiumViewerDemo.parcel` — Globe view demo: cadastral parcel
+### `ogc.utils.viewer.cesium.cesiumViewerDemo.parcel` — Globe view demo: cadastral parcel
 
 **Type:** schema
 
 A Western Australian cadastral survey as a topo-feature document — a 3D lot solid, the ground surface and three parcels — shown in the Globe view with the parcel rules from the Three.js topology view.
 
-### `ogc.bbr.template.cesiumViewerDemo.utilityNetwork` — Globe view demo: underground utility network
+### `ogc.utils.viewer.cesium.cesiumViewerDemo.utilityNetwork` — Globe view demo: underground utility network
 
 **Type:** schema
 
