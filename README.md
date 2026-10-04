@@ -144,7 +144,7 @@ npm run local-register  # point build-local/register.json at the local dist/
 ./view.sh               # the viewer at http://localhost:9090
 ```
 
-Then open, for example, <http://localhost:9090/bblock/ogc.viewer.cesium.cesiumViewerDemo.parcel>,
+Then open, for example, <http://localhost:9090/bblock/ogc.utils.viewer.cesium.cesiumViewerDemo.parcel>,
 choose **Examples** and the **Globe** tab. `view.sh`'s container serves this whole repository under
 `/register/`, so the local plugin is loaded same-origin from
 `http://localhost:9090/register/dist/index.js`. Re-run `npm run local-register` after every

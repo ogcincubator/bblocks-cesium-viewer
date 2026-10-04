@@ -22,7 +22,7 @@ Add a `resources` entry to the block's `bblock.json`, next to its examples:
 A block that already has a configuration for the Three.js topology view (role
 `https://github.com/ogcincubator/bblocks-viewer-topo-feature-plugin/role/viewer-config`) gets the
 same rules on the globe; a Globe-specific resource takes precedence when both are present. See the
-[demo blocks](bblocks://ogc.viewer.cesium.cesiumViewerDemo.parcel) for complete examples.
+[demo blocks](bblocks://ogc.utils.viewer.cesium.cesiumViewerDemo.parcel) for complete examples.
 
 ## Rules
 

@@ -2,7 +2,7 @@ Demonstrates that the **Globe** view's rules are domain-independent: four underg
 classified by `assetCondition`, with no cadastral vocabulary. Open the example below and choose its
 **Globe** tab.
 
-The attached [Globe view configuration](bblocks://ogc.viewer.cesium.cesiumViewerConfig)
+The attached [Globe view configuration](bblocks://ogc.utils.viewer.cesium.cesiumViewerConfig)
 (`viewer-config.json`) matches a literal (`decommissioned` — shown grey and initially hidden), a
 CURIE (`util:hazardous`, expanded against the document's own `@context` — red) and a full URI
 (`…/utility-status#planned` — blue, clamped to the ground); other pipes fall through to a catch-all
