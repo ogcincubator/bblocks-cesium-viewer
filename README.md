@@ -31,12 +31,11 @@ Declare the plugin in the register's `bblocks-config.yaml`:
 ```yaml
 viewer:
   view-plugins:
-    - url: https://cdn.jsdelivr.net/gh/andrewhunter2066/bblocks-cesium-viewer@dist/index.js
+    - url: https://cdn.jsdelivr.net/gh/ogcincubator/bblocks-cesium-viewer@dist/index.js
       export: TopoFeatureCesiumPlugin
 ```
 
-The URL serves the latest build of `master` (see [Publishing](#publishing)). The repository is
-expected to move to `ogcincubator/bblocks-cesium-viewer`; the URL changes with it.
+The URL serves the latest build of `master` (see [Publishing](#publishing)).
 
 CesiumJS itself (1.145.0) is loaded at runtime from jsDelivr, so viewers need to reach
 `cdn.jsdelivr.net` and, for the default basemap, `tile.openstreetmap.org`.
@@ -145,7 +144,7 @@ npm run local-register  # point build-local/register.json at the local dist/
 ./view.sh               # the viewer at http://localhost:9090
 ```
 
-Then open, for example, <http://localhost:9090/bblock/ogc.bbr.template.cesiumViewerDemo.parcel>,
+Then open, for example, <http://localhost:9090/bblock/ogc.utils.viewer.cesium.cesiumViewerDemo.parcel>,
 choose **Examples** and the **Globe** tab. `view.sh`'s container serves this whole repository under
 `/register/`, so the local plugin is loaded same-origin from
 `http://localhost:9090/register/dist/index.js`. Re-run `npm run local-register` after every

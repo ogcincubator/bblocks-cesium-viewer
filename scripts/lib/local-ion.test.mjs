@@ -69,6 +69,6 @@ test('injecting twice gives the same result as once', () => {
 });
 
 test('ionConfigFileName makes a safe file name from a block identifier', () => {
-  assert.equal(ionConfigFileName('ogc.bbr.template.cesiumViewerDemo.parcel'), 'ogc.bbr.template.cesiumViewerDemo.parcel.json');
+  assert.equal(ionConfigFileName('ogc.utils.viewer.cesium.cesiumViewerDemo.parcel'), 'ogc.utils.viewer.cesium.cesiumViewerDemo.parcel.json');
   assert.equal(ionConfigFileName('a/b:c'), 'a_b_c.json');
 });

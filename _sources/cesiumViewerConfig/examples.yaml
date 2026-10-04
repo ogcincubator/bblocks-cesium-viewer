@@ -4,7 +4,7 @@ examples:
       Rules from the Three.js topology view's cadastral example, used unchanged by the Globe view:
       parcels are grouped under one heading with a kind per `parcelState` (matched as CURIEs),
       flattened onto the ground, with former-tenure parcels dashed and initially hidden. This is the
-      configuration of the [parcel demo block](bblocks://ogc.bbr.template.cesiumViewerDemo.parcel).
+      configuration of the [parcel demo block](bblocks://ogc.utils.viewer.cesium.cesiumViewerDemo.parcel).
     snippets:
       - language: json
         ref: ../cesiumViewerDemo/parcel/viewer-config.json
@@ -14,7 +14,7 @@ examples:
       A non-cadastral configuration: underground pipes classified by `assetCondition`, matching a
       literal, a CURIE and a full URI. Decommissioned pipes start hidden; planned pipes are clamped
       to the ground. This is the configuration of the
-      [utility network demo block](bblocks://ogc.bbr.template.cesiumViewerDemo.utilityNetwork).
+      [utility network demo block](bblocks://ogc.utils.viewer.cesium.cesiumViewerDemo.utilityNetwork).
     snippets:
       - language: json
         ref: ../cesiumViewerDemo/utilityNetwork/viewer-config.json

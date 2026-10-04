@@ -38,6 +38,18 @@ First version: a CesiumJS Globe view for topo-feature documents, and the registe
 - **Design notes** — `docs/design.md`: design decisions, secrets policy (including how to scope an
   ion token) and verified integration behaviour.
 
+### Changed
+
+- **Repository moved to `ogcincubator/bblocks-cesium-viewer`** — the register's view-plugin URL
+  (now `https://cdn.jsdelivr.net/gh/ogcincubator/bblocks-cesium-viewer@dist/index.js`), the
+  register and `cesiumViewerConfig` source links, the README and the workflow comments point to it
+  instead of the personal repository.
+- **Identifier prefix is now `ogc.utils.viewer.cesium.`** (was the template's `ogc.bbr.template.`),
+  so the blocks are `ogc.utils.viewer.cesium.cesiumViewerConfig`,
+  `ogc.utils.viewer.cesium.cesiumViewerDemo.parcel` and
+  `ogc.utils.viewer.cesium.cesiumViewerDemo.utilityNetwork`. References to the old identifiers must
+  be updated.
+
 ### Removed
 
 - The template's `myFeature` and `mySchema` building blocks.

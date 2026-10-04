@@ -34,8 +34,9 @@ jobs:
         with:
           fetch-depth: 0  # scan the full history, not just the tip
 
-      # The gitleaks CLI image rather than gitleaks-action, which needs a paid licence once the
-      # repo moves to an organisation. Its default rules include JWTs such as Cesium ion tokens.
+      # The gitleaks CLI image rather than gitleaks-action, which needs a paid licence for
+      # repositories owned by an organisation. Its default rules include JWTs such as Cesium ion
+      # tokens.
       - name: Scan for committed secrets
         run: |
           docker run --rm -v "${GITHUB_WORKSPACE}:/repo" ghcr.io/gitleaks/gitleaks:v8.30.1 \
