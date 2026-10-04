@@ -7,7 +7,7 @@
   "version": "0.1",
   "tags": ["viewer", "cesium", "topo-feature", "cadastre", "demo"],
   "group": "Globe viewer",
-  "seeAlso": ["bblocks://ogc.bbr.template.cesiumViewerConfig"],
+  "seeAlso": ["bblocks://ogc.viewer.cesium.cesiumViewerConfig"],
   "resources": [
     {
       "role": "https://github.com/ogcincubator/bblocks-cesium-viewer/role/viewer-config",

@@ -44,6 +44,10 @@ First version: a CesiumJS Globe view for topo-feature documents, and the registe
   (now `https://cdn.jsdelivr.net/gh/ogcincubator/bblocks-cesium-viewer@dist/index.js`), the
   register and `cesiumViewerConfig` source links, the README and the workflow comments point to it
   instead of the personal repository.
+- **Identifier prefix is now `ogc.viewer.cesium.`** (was the template's `ogc.bbr.template.`), so the
+  blocks are `ogc.viewer.cesium.cesiumViewerConfig`, `ogc.viewer.cesium.cesiumViewerDemo.parcel` and
+  `ogc.viewer.cesium.cesiumViewerDemo.utilityNetwork`. References to the old identifiers must be
+  updated.
 
 ### Removed
 
