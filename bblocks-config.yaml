@@ -20,7 +20,7 @@ description: |
   declares the plugin itself, so the demo blocks' examples open in the Globe tab here.
 
   Source, harness and instructions for adding the plugin to another register:
-  [bblocks-cesium-viewer](https://github.com/andrewhunter2066/bblocks-cesium-viewer).
+  [bblocks-cesium-viewer](https://github.com/ogcincubator/bblocks-cesium-viewer).
 
 # Customize the following prefix (will be prepended to the path of the building blocks):
 identifier-prefix: ogc.bbr.template.
@@ -56,10 +56,10 @@ schema-oas30-downcompile: False
 viewer:
   view-plugins:
     # This repository's own plugin (dogfooding), published from the `dist` branch by
-    # .github/workflows/publish-dist.yml. Moves to ogcincubator/bblocks-cesium-viewer with the repo.
+    # .github/workflows/publish-dist.yml.
     # For local testing, `npm run local-register` points build-local/register.json at the local
     # build instead (see README).
-    - url: https://cdn.jsdelivr.net/gh/andrewhunter2066/bblocks-cesium-viewer@dist/index.js
+    - url: https://cdn.jsdelivr.net/gh/ogcincubator/bblocks-cesium-viewer@dist/index.js
       export: TopoFeatureCesiumPlugin
 
 # SPARQL configuration (optional)
