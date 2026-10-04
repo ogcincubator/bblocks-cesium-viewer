@@ -31,12 +31,11 @@ Declare the plugin in the register's `bblocks-config.yaml`:
 ```yaml
 viewer:
   view-plugins:
-    - url: https://cdn.jsdelivr.net/gh/andrewhunter2066/bblocks-cesium-viewer@dist/index.js
+    - url: https://cdn.jsdelivr.net/gh/ogcincubator/bblocks-cesium-viewer@dist/index.js
       export: TopoFeatureCesiumPlugin
 ```
 
-The URL serves the latest build of `master` (see [Publishing](#publishing)). The repository is
-expected to move to `ogcincubator/bblocks-cesium-viewer`; the URL changes with it.
+The URL serves the latest build of `master` (see [Publishing](#publishing)).
 
 CesiumJS itself (1.145.0) is loaded at runtime from jsDelivr, so viewers need to reach
 `cdn.jsdelivr.net` and, for the default basemap, `tile.openstreetmap.org`.
