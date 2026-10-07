@@ -3,12 +3,12 @@
   "name": "Cesium globe viewer for topo-feature documents",
   "abstract": "A CesiumJS **Globe** view for topo-feature topology documents in the Building Blocks viewer, the\nJSON Schema for its per-block configuration, and demo blocks that use it.\n",
   "description": "The `TopoFeatureCesiumPlugin` is a [bblocks-viewer](https://github.com/opengeospatial/bblocks-viewer)\nview plugin. It adds a **Globe** tab to any example or transform output that is a\n[topo-feature](https://github.com/ogcincubator/topo-feature) document whose points carry WGS84\n`geometry`, drawing its solids, surfaces, faces and parcels at their real positions on a\nCesiumJS globe \u2014 OpenStreetMap on the flat ellipsoid by default, with no Cesium ion token needed.\n\nWhich features are drawn and how is set by rules shared with the Three.js topology view\n([bblocks-viewer-topo-feature-plugin](https://github.com/ogcincubator/bblocks-viewer-topo-feature-plugin)),\noptionally configured per block; see the *Cesium globe viewer configuration* block. This register\ndeclares the plugin itself, so the demo blocks' examples open in the Globe tab here.\n\nSource, harness and instructions for adding the plugin to another register:\n[bblocks-cesium-viewer](https://github.com/ogcincubator/bblocks-cesium-viewer).\n",
-  "modified": "2026-10-04T23:25:41.314897",
+  "modified": "2026-10-07T08:09:33.855812",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"e64dad0d6a1d0045bec6b1c52f7117632deabfc8",
-      "shortCommitId": "\"e64dad",
-      "date": "2026-10-02T09:28:05+00:00\""
+      "commitId": "\"61586a2bc19ebf936b761c53d9a886e719c1f312",
+      "shortCommitId": "\"61586a",
+      "date": "2026-10-06T15:23:00+00:00\""
     }
   },
   "gitRepository": "https://github.com/ogcincubator/bblocks-cesium-viewer",
@@ -81,6 +81,7 @@
     {
       "itemIdentifier": "ogc.utils.viewer.cesium.cesiumViewerDemo.parcel",
       "name": "Globe view demo: cadastral parcel",
+      "highlighted": true,
       "abstract": "A Western Australian cadastral survey as a topo-feature document \u2014 a 3D lot solid, the ground surface and three parcels \u2014 shown in the Globe view with the parcel rules from the Three.js topology view.",
       "status": "under-development",
       "dateTimeAddition": "2026-09-28T00:00:00Z",

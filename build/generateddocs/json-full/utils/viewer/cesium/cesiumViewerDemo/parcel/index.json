@@ -3,6 +3,7 @@
 {
   "itemIdentifier": "ogc.utils.viewer.cesium.cesiumViewerDemo.parcel",
   "name": "Globe view demo: cadastral parcel",
+  "highlighted": true,
   "abstract": "A Western Australian cadastral survey as a topo-feature document \u2014 a 3D lot solid, the ground surface and three parcels \u2014 shown in the Globe view with the parcel rules from the Three.js topology view.",
   "status": "under-development",
   "dateTimeAddition": "2026-09-28T00:00:00Z",
