@@ -1,5 +1,6 @@
 {
   "name": "Globe view demo: cadastral parcel",
+  "highlighted": true,
   "abstract": "A Western Australian cadastral survey as a topo-feature document — a 3D lot solid, the ground surface and three parcels — shown in the Globe view with the parcel rules from the Three.js topology view.",
   "status": "under-development",
   "dateTimeAddition": "2026-09-28T00:00:00Z",
